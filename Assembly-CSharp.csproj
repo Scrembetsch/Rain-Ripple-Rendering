@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{635AF50D-F377-C13D-0E38-EAEEDE6C3F52}</ProjectGuid>
+    <ProjectGuid>{4C0AFB2C-F859-DF1D-02FA-4FFDCF00CE77}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -63,42 +63,34 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\FPSCounter.cs" />
-    <Compile Include="Assets\MaterialChanger.cs" />
+    <Compile Include="Assets\Scripts\FPSCounter.cs" />
+    <Compile Include="Assets\Scripts\MaterialChanger.cs" />
     <None Include="Assets\Shaders\Flipbook.shader" />
+    <None Include="Assets\Shaders\lib\General.cginc" />
     <None Include="Assets\Shaders\FlipbookGerstner.shader" />
-    <None Include="Assets\Shaders\Other\WaveDisortionShader.shader" />
     <None Include="Assets\Shaders\lib\LookingThroughWater.cginc" />
+    <None Include="Assets\Shaders\lib\Normal.cginc" />
     <None Include="Assets\Shaders\lib\Gerstner.cginc" />
-    <None Include="Assets\Shaders\NormalDoc.shader" />
+    <None Include="Assets\Shaders\lib\Flipbook.cginc" />
     <None Include="Assets\Shaders\lib\Flow.cginc" />
+    <None Include="Assets\Shaders\Disortion.shader" />
+    <None Include="Assets\Shaders\NormalGerstner.shader" />
     <None Include="Assets\Shaders\Gerstner.shader" />
     <None Include="Assets\Shaders\Normal.shader" />
-    <None Include="Assets\Shaders\lib\Flipbook.cginc" />
-    <None Include="Assets\Shaders\lib\Normal.cginc" />
-    <None Include="Assets\Shaders\FlipbookDoc.shader" />
-    <None Include="Assets\Shaders\NormalGerstner.shader" />
-    <None Include="Assets\Shaders\Other\DisplacmentMapping.shader" />
-    <None Include="Assets\Shaders\lib\General.cginc" />
-    <None Include="Assets\Shaders\Other\WaveShader.shader" />
-    <None Include="Assets\Shaders\Other\DirectionalFlowShader.shader" />
-    <None Include="Assets\Shaders\Other\RainNormal.shader" />
-    <None Include="Assets\Shaders\Other\DisortionFlow.shader" />
-    <None Include="Assets\Shaders\Disortion.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/Dokumente/Unity/rain_ripple_rendering/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>D:/Dokumente/Unity/Rain-Ripple-Rendering/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/Dokumente/Unity/rain_ripple_rendering/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>D:/Dokumente/Unity/Rain-Ripple-Rendering/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/Dokumente/Unity/rain_ripple_rendering/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>D:/Dokumente/Unity/Rain-Ripple-Rendering/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/Dokumente/Unity/rain_ripple_rendering/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>D:/Dokumente/Unity/Rain-Ripple-Rendering/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>D:/Dokumente/Unity/rain_ripple_rendering/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+      <HintPath>D:/Dokumente/Unity/Rain-Ripple-Rendering/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.16f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -302,13 +294,13 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.16f1/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Editor">
-      <HintPath>D:/Dokumente/Unity/rain_ripple_rendering/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+      <HintPath>D:/Dokumente/Unity/Rain-Ripple-Rendering/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.StandardEvents">
-      <HintPath>D:/Dokumente/Unity/rain_ripple_rendering/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+      <HintPath>D:/Dokumente/Unity/Rain-Ripple-Rendering/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.Tracker">
-      <HintPath>D:/Dokumente/Unity/rain_ripple_rendering/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+      <HintPath>D:/Dokumente/Unity/Rain-Ripple-Rendering/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2018.4.16f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Disortion
-  m_Shader: {fileID: 4800000, guid: d12f4a4f63256bf4f8a9b080a32162df, type: 3}
+  m_Shader: {fileID: 4800000, guid: 0252684c71ffe2e46804f0aef7ad7f6e, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
@@ -24,7 +24,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DerivHeightMap:
-        m_Texture: {fileID: 2800000, guid: 4616cef26f2a5ed418ae616922925c9e, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7ada6e28241a14c4e801112b8b7e75b1, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _DetailAlbedoMap:
@@ -44,11 +44,11 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _FlowMap:
-        m_Texture: {fileID: 2800000, guid: 89cf600cd8013e64991a21f5edd4a314, type: 3}
+        m_Texture: {fileID: 2800000, guid: 511e6a0af1035314098d0ad95b366a1e, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 33cc5e6891cb6074aac328ed4a9ef956, type: 3}
+        m_Texture: {fileID: 2800000, guid: e4228282d5ffdc74397cfcf5c98c60dd, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
